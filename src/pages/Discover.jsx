@@ -19,7 +19,7 @@ const Discover = () => {
     <div className="flex flex-col">
       <div className="w-full flex justify-between items-center sm:flex-row flex-col mt-4 mb-10">
         <h2 className="font-bold tex-t-3xl text-white text-left">
-          Explorez le genre {genreTitle}{' '}
+          Découvrir le genre {genreTitle}{' '}
         </h2>
         <select
           onChange={() => {}}
