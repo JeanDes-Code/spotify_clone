@@ -103,7 +103,7 @@ const TopPlay = () => {
         <div className="w-full flex flex-col">
           <div className="flex flex-row justify-between items-center">
             <h2 className="text-white font-bold text-2xl">Top Artistes</h2>
-            <Link to="/topArtists">
+            <Link to="/top-artists">
               <p className="text-gray-300 text-base cursor-pointer">
                 Voir Plus
               </p>

@@ -31,7 +31,7 @@ const SongDetails = () => {
   };
 
   if (isFetchingSongDetails || isFetchingRelatedSongs) {
-    return <Loader title="Recherche des données..." />;
+    return <Loader title="Recherche des données sur le Titre..." />;
   }
 
   if (error) return <Error />;
